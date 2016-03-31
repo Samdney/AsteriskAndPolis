@@ -1,0 +1,48 @@
+\documentclass[10pt, a4paper, oneside]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+\usepackage{amsmath,marvosym}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{pdflscape}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{listings}
+
+\definecolor{dunkelgrau}{rgb}{0.8,0.8,0.8}
+\definecolor{grau}{gray}{0.25}
+
+\newcommand{\header}[5]{
+	\noindent\rule{\textwidth}{0.7pt}
+		{\centering{\footnotesize 0101010 \ 1110000 \ 1101111 \ 1101100 \ 1101001 \ 1110011$_{2}$}\\
+		{\footnotesize 52 \ 160 \ 157 \ 154 \ 151 \ 163$_{8}$} \ 
+		{\footnotesize 42 \ 112 \ 111 \ 108 \ 105 \ 115$_{10}$} \ 
+		{\footnotesize 2A \ 70 \ 6F \ 6C \ 69 \ 73$_{16}$}\\}
+		\noindent\rule{\textwidth}{0.2pt}
+		{\small find \$WWW -name}
+		\begin{center}{\LARGE *polis:$\backslash$ #1}\end{center}
+		Reihe:#2
+		\noindent\rule{\textwidth}{0.2pt}
+		{\centering{\footnotesize Autor: #3 \quad Version: #4 \quad Lizenz: #5}\\}
+	\noindent\rule{\textwidth}{0.7pt}
+}
+
+\newcommand{\theme}[2]{
+	\begin{center}{\Large\textbf{#1}}\end{center}
+	\begin{center}{#2}\end{center}
+}
+
+\setkomafont{section}{\normalsize\selectfont\mdseries}
+\setkomafont{subsection}{\normalsize\selectfont\mdseries}
+\setkomafont{subsubsection}{\normalsize\selectfont\mdseries}
+
